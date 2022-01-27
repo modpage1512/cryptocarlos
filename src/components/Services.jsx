@@ -21,14 +21,12 @@ const Services = () => (
   <div className="flex w-full justify-center items-center gradient-bg-services">
     <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 py-12 px-4">
       <div className="flex-1 flex flex-col justify-start items-start">
-        <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient ">
-          Servicios que
-          <br />
-          continuamos mejorando
+        <h1 className="text-white text-3xl sm:text-5xl py-2 ">
+          Nuestros 
+          Servicios
         </h1>
         <p className="text-left my-2 text-white font-light md:w-9/12 w-11/12 text-base">
-          La mejor opción para comprar y vender sus criptoactivos, con la
-          varios servicios super amables que ofrecemos
+          La mejor opción para comprar y vender sus criptoactivos
         </p>
       </div>
 
@@ -43,13 +41,13 @@ const Services = () => (
           color="bg-[#8945F8]"
           title="Las mejores tarifas de intercambio"
           icon={<BiSearchAlt fontSize={21} className="text-white" />}
-          subtitle="La seguridad está garantizada. Siempre mantenemos la privacidad y mantenemos la calidad de nuestros productos."
+          subtitle="Nuestros servicios ofrecen las tarifas más económicas del mercado, cuidando el bolsillo de nuestros clientes."
         />
         <ServiceCard
           color="bg-[#F84550]"
           title="Las transacciones mas rapidas"
           icon={<RiHeart2Fill fontSize={21} className="text-white" />}
-          subtitle="La seguridad está garantizada. Siempre mantenemos la privacidad y mantenemos la calidad de nuestros productos."
+          subtitle="Transacciones instantáneas y seguras, pensado para tener el mejor servicio que sea posible."
         />
       </div>
     </div>
